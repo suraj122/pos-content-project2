@@ -1,0 +1,325 @@
+/* Font Family */
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* General */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+}
+
+/* Container */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Clearfix */
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+
+/* Align Center */
+.text-center {
+  text-align: center;
+}
+
+/* Padding */
+.padding {
+  padding: 80px 0;
+}
+
+/* Heading */
+.heading {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.sub-heading {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Article Content */
+.article-heading {
+  font-size: 24px;
+  color: #5385c1;
+}
+.article-para {
+  font-size: 16px;
+  color: #858586;
+  margin: 16px 0;
+}
+/* Button */
+.btn {
+  padding: 12px 24px;
+  background-color: #5387c5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px #5386c569;
+  border-radius: 4px;
+}
+
+/* Header */
+.header {
+  background-color: #5385c1;
+  line-height: 48px;
+  padding: 8px;
+}
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.header a:hover {
+  color: rgb(127, 168, 255);
+}
+.logo {
+  float: left;
+  font-size: 32px;
+}
+.nav-menu {
+  float: right;
+}
+.nav-menu a {
+  font-size: 20px;
+  margin-left: 32px;
+}
+
+/* Hero */
+.hero {
+  padding: 180px 0;
+  background-color: #5385c1;
+  color: #ffffff;
+}
+.hero-heading {
+  font-size: 64px;
+  font-weight: 300;
+}
+.hero-subheading {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.hero-subheading span {
+  text-transform: uppercase;
+}
+
+/* Primary */
+.row {
+  margin: 0 -15px;
+}
+.col {
+  float: left;
+  width: 33.33%;
+  padding: 0 15px;
+}
+
+/* Team */
+.team {
+  background-color: #5385c1;
+  color: #ffffff;
+}
+.team-wrapper {
+  margin-top: 48px;
+}
+.col-1-4 {
+  width: 22%;
+  margin: 0 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 32px 0;
+  float: left;
+}
+.team-avatar {
+  border-radius: 50%;
+}
+.team-member {
+  font-size: 24px;
+  margin-top: 24px;
+}
+.team-designation {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Blog */
+.blog .heading {
+  color: #5385c1;
+}
+.blog .sub-heading {
+  color: #b9b9b9;
+}
+.blog-posts {
+  margin-top: 48px;
+}
+.col-1-2 {
+  width: 50%;
+  float: left;
+  padding: 0 15px;
+}
+.col-1-2 img {
+  width: 100%;
+}
+
+/* Footer */
+.footer-wrapper {
+  padding-top: 80px;
+}
+.copyright {
+  float: left;
+}
+.social-nav {
+  float: right;
+}
+.social-nav a {
+  color: #5385c1;
+  text-decoration: none;
+  font-size: 24px;
+  margin-left: 32px;
+}
